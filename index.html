@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Precio Website</title>
+  <link rel="shortcut icon" href="C:\xampp\htdocs\mini1\Vector 1.png" type="image/x-icon">
+  <link rel="stylesheet" href="./assets/css/style-prefix.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+ <div class="overlay" data-overlay id="home"></div>
+  <header id="top">
+ <div class="header-main">
+<div class="container">
+ <a href="#" class="header-logo">
+          <img src="Vector 1.png" alt="logo" width="70" height="56"><b class="pricio">PRECIO</b>
+        </a>
+          <div class="header-search-container">
+          <input type="search" name="search" class="search-field" placeholder="Enter your product name...">
+          <button class="search-btn">
+            <ion-icon name="search-outline"></ion-icon>
+          </button>
+        </div>
+        <div class="container">
+          
+            
+             <a href="login.html" ><img src="person-icon-1671.png" width="45" height="45" > Login</a>
+              <div class="dropdown">
+                <button class="dropbtn"><img src="settings-icon-14955.png" alt="" width="85" height="70">More</button>
+                <div class="dropdown-content">
+                  <a href="contactus.html">Contact Us<img src="contact icon.png" alt="" width="25" height="20"></a>
+                  <a href="#">Wishlist<img src="like.png" alt="" width="25" height="20"></a>
+                  <a href="#">My Cart<img src="kart.png" alt="" width="25" height="20"></a>
+                </div>
+              </div>
+            
+         
+        </div>
+      </div>
+    </div>
+  </header>
+  <nav>
+    <div class="second">
+     
+         
+      <div class="second-2">
+          <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#product">Popular Products</a></li>
+              <li><a href="#deals">Today's Deals</a></li>
+              <li><a href="#about">About</a></li>
+              
+          </ul>
+      </div></div>
+    </nav>
+<main>
+  
+  
+    <div class="banner">
+      
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="slide1.jpg" height="400px" width="200%">
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="slide2.jpg" height="400px" width="200%" >
+        </div>
+      
+        <div class="mySlides fade">
+          <img src="photo1713343054.jpeg" height="400px" width="200%">
+        </div>
+      </div>
+   
+    </div>
+      <script>
+        var slideIndex = 0;
+        showSlides();
+      
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}
+          slides[slideIndex-1].style.display = "block";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+      </script>
+   
+    <!--
+      - PRODUCT
+    -->
+    <div class="product-container">
+      <div class="container">
+        <!--
+          - SIDEBAR
+        -->
+        <div class="sidebar  has-scrollbar" data-mobile-menu>
+          <div class="sidebar-category">
+            <div class="sidebar-top">
+              <h2 class="sidebar-title">Websites</h2>
+              
+            </div>
+            <ul class="sidebar-menu-category-list">
+              <li class="sidebar-menu-category">
+                <a href="https://www.flipkart.com/"><img src="1220366_flipkart_icon.png" alt="" height="35" width="35"><h3>FLIPKART</h3></a>
+                
+              </li><hr>
+              <li class="sidebar-menu-category">
+                <a href="https://www.amazon.in/?&tag=googhydrabk1-21&ref=pd_sl_7hz2t19t5c_e&adgrpid=155259815513&hvpone=&hvptwo=&hvadid=674842289437&hvpos=&hvnetw=g&hvrand=4498808892940529381&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9149572&hvtargid=kwd-10573980&hydadcr=14453_2316415&gad_source=1">
+                  <img src="amazon-icon-21107.png" alt="" height="35" width="35"><h3>AMAZON</h3></a>
+                
+                
+              </li><hr>
+              
+            </ul>
+          </div>
+        </div>
+        <div class="product-box">
+          <!--
+            - PRODUCT MINIMAL
+          -->
+          <center><h3>Popular Products</h3></center>
+          <div class="product-minimal" id="product">
+
+
+           
+            <div class="product-showcase">
+              <img src="1220366_flipkart_icon.png" alt="" height="35" width="35">
+              <h2 class="title"><b>FLIPKART</b></h2>
+              <div class="showcase-wrapper has-scrollbar">
+                <div class="showcase-container">
+                  <div class="showcase">
+                    <a href="https://www.flipkart.com/search?q=realme+11+pro+5g&as=on&as-show=on&otracker=AS_Query_OrganicAutoSuggest_5_9_na_na_ps&otracker1=AS_Query_OrganicAutoSuggest_5_9_na_na_ps&as-pos=5&as-type=RECENT&suggestionId=realme+11+pro+5g&requestId=d32257ef-6df3-470f-829e-131ce131b005&as-searchtext=realme%2011" class="showcase-img-box">
+                      <img src="11pro.jpg" alt="" width="70" class="showcase-img">
+                    </a>
+                    <div class="showcase-content">
+                      <a href="https://www.flipkart.com/search?q=realme+11+pro+5g&as=on&as-show=on&otracker=AS_Query_OrganicAutoSuggest_5_9_na_na_ps&otracker1=AS_Query_OrganicAutoSuggest_5_9_na_na_ps&as-pos=5&as-type=RECENT&suggestionId=realme+11+pro+5g&requestId=d32257ef-6df3-470f-829e-131ce131b005&as-searchtext=realme%2011">
+                        <h4 class="showcase-title">Realme 11 pro</h4>
+                      </a>
+                      <a href="#" class="showcase-category"></a>
+                      <div class="price-box">
+                        <p class="price"> &#8377;23,999</p>
+                        <del></del>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="showcase">
+                    <a href="https://www.flipkart.com/frony-wk-990-p47-headset-super-extra-bass-bluetooth-furious-ear/p/itma2d406899de09?pid=ACCGZZHWSJQXHQAR&lid=LSTACCGZZHWSJQXHQARUGAY24&marketplace=FLIPKART&q=headphones+&store=0pm%2Ffcn&srno=s_1_29&otracker=search&otracker1=search&fm=Search&iid=b5bc1116-2bb6-408f-805d-e93a9921871b.ACCGZZHWSJQXHQAR.SEARCH&ppt=sp&ppn=sp&ssid=825qt6qqlc0000001714303544935&qH=0b8534885e34079e" class="showcase-img-box">
+                      <img src="headset.jpeg" alt="" class="showcase-img" width="70">
+                    </a>  
+                    <div class="showcase-content">
+                  
+                      <a href="https://www.flipkart.com/frony-wk-990-p47-headset-super-extra-bass-bluetooth-furious-ear/p/itma2d406899de09?pid=ACCGZZHWSJQXHQAR&lid=LSTACCGZZHWSJQXHQARUGAY24&marketplace=FLIPKART&q=headphones+&store=0pm%2Ffcn&srno=s_1_29&otracker=search&otracker1=search&fm=Search&iid=b5bc1116-2bb6-408f-805d-e93a9921871b.ACCGZZHWSJQXHQAR.SEARCH&ppt=sp&ppn=sp&ssid=825qt6qqlc0000001714303544935&qH=0b8534885e34079e">
+                        <h4 class="showcase-title">FRONY WK-990 P47 Headset Super Extra Bass Bluetooth Headset</h4>
+                      </a>
+                  
+                      <a href="#" class="showcase-category"></a>
+                  
+                      <div class="price-box">
+                        <p class="price"> &#8377; 449</p>
+                        <del></del>
+                      </div>
+                  
+                    </div>
+                  
+                  </div>
+                  <div class="showcase">
+                  
+                    <a href="https://www.flipkart.com/search?q=iphone%2015%20&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off" class="showcase-img-box">
+                      <img src="iphone15.jpg" alt="" class="showcase-img" width="70">
+                    </a>
+                  
+                    <div class="showcase-content">
+                  
+                      <a href="https://www.flipkart.com/search?q=iphone%2015%20&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off">
+                        <h4 class="showcase-title">iPhone 15 </h4>
+                      </a>
+                  
+                      <a href="#" class="showcase-category"></a>
+                  
+                      <div class="price-box">
+                        <p class="price">&#8377; 70,999</p>
+                        <del></del>
+                      </div>
+                  
+                    </div>
+                  
+                  </div>
+                  <div class="showcase">
+                  
+                    <a href="https://www.flipkart.com/noise-colorfit-icon-2-1-8-display-bluetooth-calling-ai-voice-assistant-smartwatch/p/itm951e094061071?pid=SMWGEH7WGUSZCT4W&lid=LSTSMWGEH7WGUSZCT4WUGZAKG&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_5&otracker=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&fm=search-autosuggest&iid=58e74e0e-8c4f-4309-a32b-3c72906eb177.SMWGEH7WGUSZCT4W.SEARCH&ppt=sp&ppn=sp&qH=acc05e33fb140cc4" class="showcase-img-box">
+                      <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/r/y/f/-original-imagxp8tmkqqspa4.jpeg?q=70" alt="" class="showcase-img" width="70">
+                    </a>
+                  
+                    <div class="showcase-content">
+                  
+                      <a href="#">
+                        <h4 class="showcase-title">Noise Colorfit Icon 2 1.8'' Display with Bluetooth Calling, AI Voice Assistant Smartwatch  (Grey Strap, Regular)</h4>
+                      </a>
+                  
+                      <a href="https://www.flipkart.com/noise-colorfit-icon-2-1-8-display-bluetooth-calling-ai-voice-assistant-smartwatch/p/itm951e094061071?pid=SMWGEH7WGUSZCT4W&lid=LSTSMWGEH7WGUSZCT4WUGZAKG&marketplace=FLIPKART&q=smart+watch&store=ajy%2Fbuh&srno=s_1_5&otracker=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_7_na_na_na&fm=search-autosuggest&iid=58e74e0e-8c4f-4309-a32b-3c72906eb177.SMWGEH7WGUSZCT4W.SEARCH&ppt=sp&ppn=sp&qH=acc05e33fb140cc4" class="showcase-category"></a>
+                  
+                      <div class="price-box">
+                        <p class="price">&#8377; 1,299</p>
+                        <del></del>
+                      </div>
+                  
+                    </div>
+                  
+                  </div>
+
+
+                  <div class="showcase">
+                  
+                    <a href="#" class="showcase-img-box">
+                      <img src="lenovo slim 3.jpg" alt="" class="showcase-img"
+                        width="70">
+                    </a>
+                  
+                    <div class="showcase-content">
+                  
+                      <a href="https://www.flipkart.com/search?q=lenovo%20ideapad%20slim%203&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off">
+                        <h4 class="showcase-title">Lenovo IdeaPad Slim 3</h4>
+                      </a>
+                  
+                      <a href="https://www.flipkart.com/search?q=lenovo%20ideapad%20slim%203&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off" class="showcase-category"></a>
+                  
+                      <div class="price-box">
+                        <p class="price">&#8377; 59,390</p>
+                        <del></del>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="showcase">
+                  
+                    <a href="https://www.flipkart.com/dell-s-series-27-inch-full-hd-ips-panel-5-years-warranty-99-srgb-low-blue-light-technology-hdmi-x2-tilt-adjustment-3-sided-bezel-less-monitor-s2721hnm-s2721hn/p/itme14d367b6a471?pid=MONGYDFQE2JJHNF3&lid=LSTMONGYDFQE2JJHNF3HYP52D&marketplace=FLIPKART&q=monitor&store=6bo%2Fg0i%2F9no&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_na&fm=search-autosuggest&iid=en_qps5dJWO0IqPTAb63s_3sU5Vet0KZIXKVB2IUTpFpu9BFUa0_-x5dJXmlKVL8FUlZjaBXA5UfdZXFWQ-foEwL_UFjCTyOHoHZs-Z5_PS_w0%3D&ppt=sp&ppn=sp&ssid=e4e39l7ym80000001714304904736&qH=08b5411f848a2581" class="showcase-img-box">
+                      <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/monitor/v/t/u/-original-imagysfvjzxaegke.jpeg?q=70" alt="" class="showcase-img"
+                        width="70">
+                    </a>
+                  
+                    <div class="showcase-content">
+                  
+                      <a href="https://www.flipkart.com/dell-s-series-27-inch-full-hd-ips-panel-5-years-warranty-99-srgb-low-blue-light-technology-hdmi-x2-tilt-adjustment-3-sided-bezel-less-monitor-s2721hnm-s2721hn/p/itme14d367b6a471?pid=MONGYDFQE2JJHNF3&lid=LSTMONGYDFQE2JJHNF3HYP52D&marketplace=FLIPKART&q=monitor&store=6bo%2Fg0i%2F9no&srno=s_1_1&otracker=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_na&fm=search-autosuggest&iid=en_qps5dJWO0IqPTAb63s_3sU5Vet0KZIXKVB2IUTpFpu9BFUa0_-x5dJXmlKVL8FUlZjaBXA5UfdZXFWQ-foEwL_UFjCTyOHoHZs-Z5_PS_w0%3D&ppt=sp&ppn=sp&ssid=e4e39l7ym80000001714304904736&qH=08b5411f848a2581">
+                        <h4 class="showcase-title">DELL S Series 27 inch Full HD IPS Panel with 5-Years warranty, 99% sRGB, Low Blue Light technology,HDMI x2, Tilt adjustment, 3-sided Bezel-less Monitor (S2721HNM / S2721HN)  (AMD Free Sync, Response Time: 4 ms, 75 Hz Refresh Rate)</h4>
+                      </a>
+                  
+                      <a href=""></a>
+                  
+                      <div class="price-box">
+                        <p class="price">&#8377; 12,899</p>
+                        <del></del>
+                      </div>
+                    </div>
+                  </div><div class="showcase">
+                  
+                    <a href="https://www.flipkart.com/try-solid-men-v-neck-black-t-shirt/p/itmf4wfdqkztrywn?pid=TSHF4WY52WFUENNW&lid=LSTTSHF4WY52WFUENNWZKXOTF&marketplace=FLIPKART&srno=s_1_23&otracker=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_na&fm=search-autosuggest&iid=8f6fc937-0aaa-411b-b28e-27f61999b746.TSHF4WY5M3YDQQKG.SEARCH&ppt=sp&ppn=sp&ssid=bx0cghsjv40000001714305150062&qH=772b81288fbe5b81" class="showcase-img-box">
+                      <img src="https://rukminim2.flixcart.com/image/400/400/xif0q/shirt/b/m/j/xl-ffs-try-this-original-imagn7gxmmyqggt5.jpeg?q=50" alt="" class="showcase-img"
+                        width="70">
+                    </a>
+                  
+                    <div class="showcase-content">
+                  
+                      <a href="https://www.flipkart.com/try-solid-men-v-neck-black-t-shirt/p/itmf4wfdqkztrywn?pid=TSHF4WY52WFUENNW&lid=LSTTSHF4WY52WFUENNWZKXOTF&marketplace=FLIPKART&srno=s_1_23&otracker=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_na&fm=search-autosuggest&iid=8f6fc937-0aaa-411b-b28e-27f61999b746.TSHF4WY5M3YDQQKG.SEARCH&ppt=sp&ppn=sp&ssid=bx0cghsjv40000001714305150062&qH=772b81288fbe5b81">
+                        <h4 class="showcase-title">Cotton Casual Partywear Full Sleeve Slim Fit Tshirts For Mens And Boys Men Solid V Neck Cotton Blend Black T-Shirt</h4>
+                      </a>
+                  
+                      <a href=""></a>
+                  
+                      <div class="price-box">
+                        <p class="price">&#8377; 299</p>
+                        <del></del>
+                      </div>
+                    </div>
+                  </div><div class="showcase">
+                  
+                    <a href="https://www.flipkart.com/pramukh-enterprise-solid-wood-study-table/p/itm089a5c6590849?pid=KDTGKTTZNZBZWWFW&lid=LSTKDTGKTTZNZBZWWFWPKKF1A&marketplace=FLIPKART&store=wwe&srno=b_1_15&otracker=nmenu_sub_Home%20%26%20Furniture_0_Kids%20Room%20Furniture&fm=search-autosuggest&iid=ea0daaf4-a35c-429a-abab-b14085786f22.KDTGKTTZNZBZWWFW.SEARCH&ppt=browse&ppn=browse&ssid=nc5maskyjk0000001714305886618" class="showcase-img-box">
+                      <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/kid-table/g/a/a/39-plywood-multipurpose-foldable-table-with-cup-holder-study-bed-original-imagzh6ttu4xuvsh.jpeg?q=70" alt="" class="showcase-img"
+                        width="70">
+                    </a>
+                  
+                    <div class="showcase-content">
+                  
+                      <a href="https://www.flipkart.com/pramukh-enterprise-solid-wood-study-table/p/itm089a5c6590849?pid=KDTGKTTZNZBZWWFW&lid=LSTKDTGKTTZNZBZWWFWPKKF1A&marketplace=FLIPKART&store=wwe&srno=b_1_15&otracker=nmenu_sub_Home%20%26%20Furniture_0_Kids%20Room%20Furniture&fm=search-autosuggest&iid=ea0daaf4-a35c-429a-abab-b14085786f22.KDTGKTTZNZBZWWFW.SEARCH&ppt=browse&ppn=browse&ssid=nc5maskyjk0000001714305886618">
+                        <h4 class="showcase-title">Pramukh Enterprise Solid Wood Study Table  (Finish Color - black, DIY(Do-It-Yourself))</h4>
+                      </a>
+                  
+                      <a href=""></a>
+                  
+                      <div class="price-box">
+                        <p class="price">&#8377; 400</p>
+                        <del></del>
+                      </div>
+                    </div>
+                  </div><div class="showcase">
+                  
+                    <a href="https://www.flipkart.com/strauss-rebel-cricket-bat-size-sh-34-x-4-5-inch-all-age-groups-black-pvc-plastic-bat/p/itmb6b28f4421048?pid=BATGZVK6FTWS9ENH&lid=LSTBATGZVK6FTWS9ENHZMMDCR&marketplace=FLIPKART&store=abc%2F5lf&srno=b_1_15&otracker=browse&fm=search-autosuggest&iid=ec931979-8124-42db-a891-c0559ea96420.BATGZVK6FTWS9ENH.SEARCH&ppt=pp&ppn=pp&ssid=rkzp0ala4w0000001714306031146" class="showcase-img-box">
+                      <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/bat/a/k/p/850-900-rebel-cricket-bat-size-sh-34-x-4-5-inch-for-all-age-original-imagwufhqfmp377z.jpeg?q=70" alt="" class="showcase-img"
+                        width="70">
+                    </a>
+                  
+                    <div class="showcase-content">
+                  
+                      <a href="https://www.flipkart.com/strauss-rebel-cricket-bat-size-sh-34-x-4-5-inch-all-age-groups-black-pvc-plastic-bat/p/itmb6b28f4421048?pid=BATGZVK6FTWS9ENH&lid=LSTBATGZVK6FTWS9ENHZMMDCR&marketplace=FLIPKART&store=abc%2F5lf&srno=b_1_15&otracker=browse&fm=search-autosuggest&iid=ec931979-8124-42db-a891-c0559ea96420.BATGZVK6FTWS9ENH.SEARCH&ppt=pp&ppn=pp&ssid=rkzp0ala4w0000001714306031146">
+                        <h4 class="showcase-title">Strauss Rebel Cricket Bat, Size SH (34 X 4.5 inch) For All Age Groups, Black PVC/Plastic Cricket Bat  (850-900 g)</h4>
+                      </a>
+                  
+                      <a href=""></a>
+                  
+                      <div class="price-box">
+                        <p class="price">&#8377; 379</p>
+                        <del></del>
+                      </div>
+                    </div>
+                  </div><div class="showcase">
+                  
+                    <a href="https://www.flipkart.com/pigeon-popular-cooktop-glass-manual-gas-stove/p/itme54519f4319b5?pid=GSTGG7GKGJZKUCUG&lid=LSTGSTGG7GKGJZKUCUG2QE6KC&marketplace=FLIPKART&store=upp%2Fd7m%2Fuhm&spotlightTagId=BestsellerId_upp%2Fd7m%2Fuhm&srno=b_1_4&otracker=nmenu_sub_Home%20%26%20Furniture_0_Gas%20Stoves&fm=search-autosuggest&iid=0b316e43-596e-444e-bb45-970624a91cfb.GSTGG7GKGJZKUCUG.SEARCH&ppt=browse&ppn=browse&ssid=udcma858u80000001714306171375" class="showcase-img-box">
+                      <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/gas-stove/a/p/t/-original-imaghugtseyhn7qb.jpeg?q=70" alt="" class="showcase-img"
+                        width="70">
+                    </a>
+                  
+                    <div class="showcase-content">
+                  
+                      <a href="https://www.flipkart.com/pigeon-popular-cooktop-glass-manual-gas-stove/p/itme54519f4319b5?pid=GSTGG7GKGJZKUCUG&lid=LSTGSTGG7GKGJZKUCUG2QE6KC&marketplace=FLIPKART&store=upp%2Fd7m%2Fuhm&spotlightTagId=BestsellerId_upp%2Fd7m%2Fuhm&srno=b_1_4&otracker=nmenu_sub_Home%20%26%20Furniture_0_Gas%20Stoves&fm=search-autosuggest&iid=0b316e43-596e-444e-bb45-970624a91cfb.GSTGG7GKGJZKUCUG.SEARCH&ppt=browse&ppn=browse&ssid=udcma858u80000001714306171375">
+                        <h4 class="showcase-title">Pigeon Popular Cooktop Glass Manual Gas Stove  (2 Burners)</h4>
+                      </a>
+                  
+                      <a href=""></a>
+                  
+                      <div class="price-box">
+                        <p class="price">&#8377; 1,599</p>
+                        <del></del>
+                      </div>
+                    </div>
+                  </div>
+
+                </div> </div>
+            </div>
+            <div class="product-showcase">
+              <img src="amazon-icon-21107.png" alt="" height="35" width="35">
+              <h2 class="title">AMAZON</h2>            
+              <div class="showcase-wrapper  has-scrollbar">           
+                <div class="showcase-container">           
+                  <div class="showcase">           
+                    <a href="https://www.amazon.in/HP-i5-1235U-15-6-inch-Graphics-Speakers/dp/B0CTKHTNWL/ref=sr_1_4?dib=eyJ2IjoiMSJ9.FiObJUyQ_H6dD6HpHUhHT4Ug2lLmeNB51LGilB_7Uzw4OlLs0wY9LoD0aNclNDNlPmQT_KM-GgqKmmdHrW0d8pp-_GFzahS0FMHSrxzVKpU-lpsCZJ5MJgjT50ADS4yzyHPX6c0P9J3UjSKSXBsKE453kJqZ724Svb19K7RSgdqzSNMsnp4GKu_qYgsWbPJvTSdvRv5wSZJU5IE40JwvCRzDmGkCPM5openLTsU3tnKLhuNmi_O2iy5YNsBRhmIj84K-EoeVsLSweB4LzOgyS9TQ9IwddkVKNUeKcPRWa6I.JmPbngTm-dxRoQrv4CtkoYHQnDVtKjeP3ECBBvbFsCE&dib_tag=se&pf_rd_i=1375424031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=aa37313e-e2d9-49ef-a752-184c66b63344&pf_rd_r=15A4XC2SJTZX7HPXF70Y&pf_rd_s=merchandised-search-11&qid=1714306667&refinements=p_n_feature_thirteen_browse-bin%3A12598162031&s=computers&sr=1-4" class="showcase-img-box">
+                      <img src="https://m.media-amazon.com/images/I/41Nt-bBjrmL._SX300_SY300_QL70_FMwebp_.jpg" alt="running & trekking shoes - white" class="showcase-img"
+                        width="70">
+                    </a>            
+                    <div class="showcase-content">      
+                  <a href="https://www.amazon.in/HP-i5-1235U-15-6-inch-Graphics-Speakers/dp/B0CTKHTNWL/ref=sr_1_4?dib=eyJ2IjoiMSJ9.FiObJUyQ_H6dD6HpHUhHT4Ug2lLmeNB51LGilB_7Uzw4OlLs0wY9LoD0aNclNDNlPmQT_KM-GgqKmmdHrW0d8pp-_GFzahS0FMHSrxzVKpU-lpsCZJ5MJgjT50ADS4yzyHPX6c0P9J3UjSKSXBsKE453kJqZ724Svb19K7RSgdqzSNMsnp4GKu_qYgsWbPJvTSdvRv5wSZJU5IE40JwvCRzDmGkCPM5openLTsU3tnKLhuNmi_O2iy5YNsBRhmIj84K-EoeVsLSweB4LzOgyS9TQ9IwddkVKNUeKcPRWa6I.JmPbngTm-dxRoQrv4CtkoYHQnDVtKjeP3ECBBvbFsCE&dib_tag=se&pf_rd_i=1375424031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=aa37313e-e2d9-49ef-a752-184c66b63344&pf_rd_r=15A4XC2SJTZX7HPXF70Y&pf_rd_s=merchandised-search-11&qid=1714306667&refinements=p_n_feature_thirteen_browse-bin%3A12598162031&s=computers&sr=1-4">
+                        <h4 class="showcase-title">HP Laptop 15s, 12th Gen Intel Core i5-1235U, 15.6-inch (39.6 cm), FHD, 16GB DDR4, 512GB SSD, Intel Iris Xe Graphics, Backlit KB,MSO,Thin & Light, Dual Speakers (Win 11, Silver, 1.69 kg), fq5330TU</h4>
+                      </a>
+          
+                      <a href="#" class="showcase-category"></a>
+            
+                      <div class="price-box">
+                        <p class="price">&#8377; 53,729</p>
+                        <del></del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="https://www.amazon.in/realme-Sunrise-Prolight-Dimensity-SUPERVOOC/dp/B0C78F8RM2/ref=sr_1_1?dib=eyJ2IjoiMSJ9.EA1Mz4ma5iPKM5mwcaZT328Oe2cWf02cwTtwVELS-9TZ9DGYyNumfJfrm_lZYooD2jk7dQPBp56qfX3c9bI3eltklGSNCMY8iSpCkZuuQ8p79xPK306sVFf6z5NQHubTbJzKunFUA9Hwi2RHpsDmG1fVyMAgWJv6Ww_YRel4QOvHQ8Holp-XxAegLqqRNW71HxQ9Ay6UhUq81W-Z64BQu5a72EbvrsA4NdCTgFoWYc8.j1X9hYNEousxGJudStWonlpIJ4hogTYGE7AuJFDQuJA&dib_tag=se&keywords=realme%2B11%2Bpro&qid=1714306852&sr=8-1&th=1" class="showcase-img-box">
+                      <img src="https://m.media-amazon.com/images/I/81eoabezOsL._AC_UY218_.jpg" alt="" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="https://www.amazon.in/realme-Sunrise-Prolight-Dimensity-SUPERVOOC/dp/B0C78F8RM2/ref=sr_1_1?dib=eyJ2IjoiMSJ9.EA1Mz4ma5iPKM5mwcaZT328Oe2cWf02cwTtwVELS-9TZ9DGYyNumfJfrm_lZYooD2jk7dQPBp56qfX3c9bI3eltklGSNCMY8iSpCkZuuQ8p79xPK306sVFf6z5NQHubTbJzKunFUA9Hwi2RHpsDmG1fVyMAgWJv6Ww_YRel4QOvHQ8Holp-XxAegLqqRNW71HxQ9Ay6UhUq81W-Z64BQu5a72EbvrsA4NdCTgFoWYc8.j1X9hYNEousxGJudStWonlpIJ4hogTYGE7AuJFDQuJA&dib_tag=se&keywords=realme%2B11%2Bpro&qid=1714306852&sr=8-1&th=1">
+                        <h4 class="showcase-title">realme 11 Pro 5G (Sunrise Beige, 8GB RAM, 128GB Storage) | 120 Hz Curved Display | 100MP Prolight Camera | 7050 5G Dimensity | 67W SUPERVOOC | 12GB Dynamic RAM | Premier Vegan Leather Finish Design</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category"></a>
+            
+                      <div class="price-box">
+                        <p class="price">&#8377; 24,999</p>
+                        <del></del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+                  <div class="showcase">
+            
+                    <a href="https://www.amazon.in/HP-Z3700-Wireless-Mouse-Modern/dp/B01KK0HU3Y/ref=sr_1_1_sspa?crid=LE8VBIP7D7ES&dib=eyJ2IjoiMSJ9.E5pgkzC-_p4thF0cuA7stzcgIcQuWoGYSkqNTZCUwFO8wl5ZOsqV_Q9Y_nSdAjzI_5dATbvAIZ_CkEEFOG_fQuPPuJRUbj_R3Wpz5oIT_hhAEf8eT-PPoYZe5pU2eHgSlLC1CTWXIfSiV8shFNXXkOjcCbCIwk6YrPjfpt6azN7Gs8Gb_0uAsfYqmBdGd7NmoXiDDzYG7ajm8--3xCOnQRYDmDAHkb3-zW9zL8pYVKs.sZkxOvqajxEw92f-YGJEi5HezMTgckp1ikjiZFT97Yk&dib_tag=se&keywords=mouse&qid=1714307037&sprefix=mouse%2Caps%2C380&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" class="showcase-img-box">
+                      <img src="https://m.media-amazon.com/images/I/614DbY9tQsL._AC_UY218_.jpg" alt="womens party wear shoes" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="https://www.amazon.in/HP-Z3700-Wireless-Mouse-Modern/dp/B01KK0HU3Y/ref=sr_1_1_sspa?crid=LE8VBIP7D7ES&dib=eyJ2IjoiMSJ9.E5pgkzC-_p4thF0cuA7stzcgIcQuWoGYSkqNTZCUwFO8wl5ZOsqV_Q9Y_nSdAjzI_5dATbvAIZ_CkEEFOG_fQuPPuJRUbj_R3Wpz5oIT_hhAEf8eT-PPoYZe5pU2eHgSlLC1CTWXIfSiV8shFNXXkOjcCbCIwk6YrPjfpt6azN7Gs8Gb_0uAsfYqmBdGd7NmoXiDDzYG7ajm8--3xCOnQRYDmDAHkb3-zW9zL8pYVKs.sZkxOvqajxEw92f-YGJEi5HezMTgckp1ikjiZFT97Yk&dib_tag=se&keywords=mouse&qid=1714307037&sprefix=mouse%2Caps%2C380&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+                        <h4 class="showcase-title">HP Z3700 Wireless Optical Mouse with USB Receiver and 2.4GHz Wireless Connection/ 1200DPI / 16 Months Long Battery Life/Ambidextrous and Slim Design (Modern Gold)</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category"></a>
+            
+                      <div class="price-box">
+                        <p class="price">&#8377; 799</p>
+                        <del></del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+                  <div class="showcase">
+            
+                    <a href="https://www.amazon.in/gp/product/B0CYPSMWPM/ref=s9_bw_cg_MIRevamp_3e1_w?pf_rd_m=AT95IG9ONZD7S&pf_rd_s=merchandised-search-13&pf_rd_r=0YN7TZFFVZX7BC0BC87V&pf_rd_t=101&pf_rd_p=0d2199de-2d2d-4501-872d-6341a2cb38c6&pf_rd_i=1388977031" class="showcase-img-box">
+                      <img src="https://m.media-amazon.com/images/I/61HdMV2xUdL._SX679_.jpg" alt="" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="https://www.amazon.in/gp/product/B0CYPSMWPM/ref=s9_bw_cg_MIRevamp_3e1_w?pf_rd_m=AT95IG9ONZD7S&pf_rd_s=merchandised-search-13&pf_rd_r=0YN7TZFFVZX7BC0BC87V&pf_rd_t=101&pf_rd_p=0d2199de-2d2d-4501-872d-6341a2cb38c6&pf_rd_i=1388977031">
+                        <h4 class="showcase-title">CP PLUS 2MP Smart Wi-fi CCTV Camera | 360° & Full HD Home Security | Full Color Night Vision | 2-Way Talk | Advanced Motion Tracking | SD Card Support (Upto 256GB) | IR Distance 20Mtr | EZ-P21</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category"></a>
+            
+                      <div class="price-box">
+                        <p class="price">&#8377; 949</p>
+                        <del></del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+                  <div class="showcase">
+            
+                    <a href="https://www.amazon.in/Vinayak-International-Stainless-Steel-Storage/dp/B07N7H3XTL/ref=sr_1_12?dib=eyJ2IjoiMSJ9.ENZTkrzW_IUp3AYQLRQbJ6exEAPtYbSQcsX9sR40AX2j5cK9yN61akxD02JtKPn_9WFUPTd95mNyA4dUw5ctnmHCbAqm4p5zTOYDGqe8aN9o-m-W0DgznX7_LaOk4lipbSmcz0KI8AeL9HO6C88xN03r49-QiMU83fk4BZLxDad0wgHxgq4CCRd3hXxTQqHbih4-92woVnKoWbqQFR3CBdxcgFKXb5Alk3M6w9wEi9cPV8oqayumkNVV5GxrO_z2Jl8NXTvQzEc7en4GVpYOdNf9jTsPCEBy4V8y-Pgh3b8.uVRrg9uf7lMBvkhzlA4P9ECdpenL7ZV54mxD8qxjDr8&dib_tag=se&pf_rd_i=976442031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=2d61787a-acc1-4e96-9632-bb2cfbae0fff&pf_rd_r=T28N91R9Z0R1K9SNQV7V&pf_rd_s=merchandised-search-8&qid=1714307408&refinements=p_36%3A29900-%2Cp_72%3A1318477031&s=kitchen&sr=1-12" class="showcase-img-box">
+                      <img src="https://m.media-amazon.com/images/I/71kCVIon6nL._AC_UL320_.jpg" alt="" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="https://www.amazon.in/Vinayak-International-Stainless-Steel-Storage/dp/B07N7H3XTL/ref=sr_1_12?dib=eyJ2IjoiMSJ9.ENZTkrzW_IUp3AYQLRQbJ6exEAPtYbSQcsX9sR40AX2j5cK9yN61akxD02JtKPn_9WFUPTd95mNyA4dUw5ctnmHCbAqm4p5zTOYDGqe8aN9o-m-W0DgznX7_LaOk4lipbSmcz0KI8AeL9HO6C88xN03r49-QiMU83fk4BZLxDad0wgHxgq4CCRd3hXxTQqHbih4-92woVnKoWbqQFR3CBdxcgFKXb5Alk3M6w9wEi9cPV8oqayumkNVV5GxrO_z2Jl8NXTvQzEc7en4GVpYOdNf9jTsPCEBy4V8y-Pgh3b8.uVRrg9uf7lMBvkhzlA4P9ECdpenL7ZV54mxD8qxjDr8&dib_tag=se&pf_rd_i=976442031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=2d61787a-acc1-4e96-9632-bb2cfbae0fff&pf_rd_r=T28N91R9Z0R1K9SNQV7V&pf_rd_s=merchandised-search-8&qid=1714307408&refinements=p_36%3A29900-%2Cp_72%3A1318477031&s=kitchen&sr=1-12">
+                        <h4 class="showcase-title">Vinayak Stainless Steel Storage Bowl Container Set of 3 Pcs Dia - 12Cm 400 Ml, 14 Cm - 700 Ml, 16 Cm - 1100 Ml</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category"></a>
+            
+                      <div class="price-box">
+                        <p class="price">&#8377; 395</p>
+                        <del></del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+                  <div class="showcase">
+            
+                    <a href="https://www.amazon.in/Amazon-Brand-Relaxed-AD-RN-196_Dark-Blue_40W/dp/B07B12VDHF/ref=sr_1_1?dib=eyJ2IjoiMSJ9.XDFFR4B7X1B8f3ZrDQmU-fnuRnR-vumeytjiqVM6OgUam5a2uDDKTIyFGFzqknwIrxP3A6wDuKVX65nMjvFClqcSu-5pIz_rndQXnqrGIcLiLDcUFROaRsyPFWdrhin6MEvqHLaLaw6BUs02MLp08PzLJF_g0sRL8e89cdsh5s0XC9oOLYx8BCbSyc5KvdH0wHRz5k3L2AoZKsnUX3kof8k1CxZVDWqhvnGxOXkE5MIsUfAz8BET3kcgCulSwBXUvCK8xQj8OImB1Xb8tV6vqB6ZEuXAUmtky0JLFpSekRY.4fTEyFQhxZEdkWF7F9YEZyCeCkn4wICiQzVPb8LZFCs&dib_tag=se&pf_rd_i=1968076031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=ae1724b5-7340-4dc8-9178-d04b309f5455&pf_rd_r=P0J0SBCNAG00PJMETJ2W&pf_rd_s=merchandised-search-8&qid=1714307593&refinements=p_85%3A10440599031%2Cp_89%3AAmazon+Brand+-+INKAST%7CAmazon+Brand+-+Symbol%7CBeing+Human%7CBillford%7CCampus+Sutra%7CKETCH%7CMUFTI%7CMax%7CNeostreak%7CSNITCH%7CThe+Indian+Garage+Co%7CUrbano+Fashion%2Cp_36%3A-69900&rnid=3837712031&rps=1&s=apparel&sr=1-1" class="showcase-img-box">
+                      <img src="https://m.media-amazon.com/images/I/81ZfDha1c5L._AC_UL320_.jpg" alt="" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="https://www.amazon.in/Amazon-Brand-Relaxed-AD-RN-196_Dark-Blue_40W/dp/B07B12VDHF/ref=sr_1_1?dib=eyJ2IjoiMSJ9.XDFFR4B7X1B8f3ZrDQmU-fnuRnR-vumeytjiqVM6OgUam5a2uDDKTIyFGFzqknwIrxP3A6wDuKVX65nMjvFClqcSu-5pIz_rndQXnqrGIcLiLDcUFROaRsyPFWdrhin6MEvqHLaLaw6BUs02MLp08PzLJF_g0sRL8e89cdsh5s0XC9oOLYx8BCbSyc5KvdH0wHRz5k3L2AoZKsnUX3kof8k1CxZVDWqhvnGxOXkE5MIsUfAz8BET3kcgCulSwBXUvCK8xQj8OImB1Xb8tV6vqB6ZEuXAUmtky0JLFpSekRY.4fTEyFQhxZEdkWF7F9YEZyCeCkn4wICiQzVPb8LZFCs&dib_tag=se&pf_rd_i=1968076031&pf_rd_m=A1VBAL9TL5WCBF&pf_rd_p=ae1724b5-7340-4dc8-9178-d04b309f5455&pf_rd_r=P0J0SBCNAG00PJMETJ2W&pf_rd_s=merchandised-search-8&qid=1714307593&refinements=p_85%3A10440599031%2Cp_89%3AAmazon+Brand+-+INKAST%7CAmazon+Brand+-+Symbol%7CBeing+Human%7CBillford%7CCampus+Sutra%7CKETCH%7CMUFTI%7CMax%7CNeostreak%7CSNITCH%7CThe+Indian+Garage+Co%7CUrbano+Fashion%2Cp_36%3A-69900&rnid=3837712031&rps=1&s=apparel&sr=1-1">
+                        <h4 class="showcase-title">Amazon Brand - Symbol Men's Cotton Lycra Stretchable Jeans</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category"></a>
+            
+                      <div class="price-box">
+                        <p class="price">&#8377; 639</p>
+                        <del></del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+                  <div class="showcase">
+            
+                    <a href="https://www.amazon.in/dp/B0B5LHQNJS/ref=sspa_dk_detail_2?psc=1&pd_rd_i=B0B5LHQNJS&pd_rd_w=zjMmI&content-id=amzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987&pf_rd_p=0fcdb56a-738b-4621-9da7-d47193883987&pf_rd_r=MJFNH4SGHWXD452WC1CB&pd_rd_wg=UvB6R&pd_rd_r=f40d5a38-a60f-404d-8ef7-879997c01ff3&s=apparel&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy" class="showcase-img-box">
+                      <img src="https://m.media-amazon.com/images/I/61jRO9egAXL._SX679_.jpg" alt="" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="https://www.amazon.in/dp/B0B5LHQNJS/ref=sspa_dk_detail_2?psc=1&pd_rd_i=B0B5LHQNJS&pd_rd_w=zjMmI&content-id=amzn1.sym.0fcdb56a-738b-4621-9da7-d47193883987&pf_rd_p=0fcdb56a-738b-4621-9da7-d47193883987&pf_rd_r=MJFNH4SGHWXD452WC1CB&pd_rd_wg=UvB6R&pd_rd_r=f40d5a38-a60f-404d-8ef7-879997c01ff3&s=apparel&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy">
+                        <h4 class="showcase-title">GEERANG MART Women's Kota Silk Cotton Saree</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category"></a>
+            
+                      <div class="price-box">
+                        <p class="price">&#8377; 1,680</p>
+                        <del></del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+                  <div class="showcase">
+            
+                    <a href="https://www.amazon.in/Dell-S2721HNM-Monitor-Minimalistic-Design-Brightness/dp/B09XR7CGY1/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9.pZzUrOWQ_LKK9HUjBBriXNrXujkhlXL2sFa4u7Dgs0BYSRy6M7U8PZHapbDs29Q3woSnUnstIxngZPOLGCaOdf-PCqMlW95CpI6a31TPnSGrr8DKUcssZLFkqOvbKsY1iGaV_rrXxfHjDeXOhhySX1yU21ME_oDvOW9QzNZeopsbL_ed5wpibTDfDXIWp_IXHpHHN1mZB4tT1Xz9QxUGXLUEQExMCsMfZy-DtOe6W54.4EDCpgnkJmi5nmlSaxTzs0-mWtWp7Urnf4vWgw4t_yY&dib_tag=se&keywords=dell+s+series+27+inch+monitor&qid=1714307979&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" class="showcase-img-box">
+                      <img src="https://m.media-amazon.com/images/I/71UMKSppf3L._AC_UY218_.jpg" alt="" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="https://www.amazon.in/Dell-S2721HNM-Monitor-Minimalistic-Design-Brightness/dp/B09XR7CGY1/ref=sr_1_1_sspa?dib=eyJ2IjoiMSJ9.pZzUrOWQ_LKK9HUjBBriXNrXujkhlXL2sFa4u7Dgs0BYSRy6M7U8PZHapbDs29Q3woSnUnstIxngZPOLGCaOdf-PCqMlW95CpI6a31TPnSGrr8DKUcssZLFkqOvbKsY1iGaV_rrXxfHjDeXOhhySX1yU21ME_oDvOW9QzNZeopsbL_ed5wpibTDfDXIWp_IXHpHHN1mZB4tT1Xz9QxUGXLUEQExMCsMfZy-DtOe6W54.4EDCpgnkJmi5nmlSaxTzs0-mWtWp7Urnf4vWgw4t_yY&dib_tag=se&keywords=dell+s+series+27+inch+monitor&qid=1714307979&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+                        <h4 class="showcase-title">Dell S2721HNM 27" (68.96 cm) FHD Monitor 1920 X 1080 Pixels @75Hz, IPS Panel, 5-Year Warranty, 99% sRGB, Low Blue Light Technology, 3-Sided bezelless, HDMI x2, Tilt Adjustment, AMD FreeSync</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category"></a>
+            
+                      <div class="price-box">
+                        <p class="price">&#8377; 12,899</p>
+                        <del></del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+                  <div class="showcase">
+            
+                    <a href="https://www.amazon.in/Noise-ColorFit-Brightness-Tracking-NoiseFit/dp/B0CQRTG843/ref=sr_1_1_sspa?crid=2WA3QIU3EVJSN&dib=eyJ2IjoiMSJ9.NtkgNnxdfq3wRW-lf8_5O3H7d8fLVTpf-8LT6OTnME8SDA8qWiknF3f9dDt7Ct_MGinq34gDISdF87ZEXBorrSRtKAGtFDm40HaVv4-_hUqymLEaLBapAeYEZynzNf60OTonYcuznAziYb7MauvCg950fm9j6eoyfvIv4u4XJyGl4_DrWzqoGh_WtUnF5-_d4DlJPa2dPQHGSj1C7auD3bEjkLlFCxGuOiIDZZO3hs4.N4Zds-h18_tfZUMl1cA5dxKKXsNzkSOThBROFHlsAlI&dib_tag=se&keywords=noise+smart+watches&qid=1714308165&sprefix=noise%2Caps%2C486&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1" class="showcase-img-box">
+                      <img src="https://m.media-amazon.com/images/I/81I9-96hxHL._AC_UY218_.jpg" alt="" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="https://www.amazon.in/Noise-ColorFit-Brightness-Tracking-NoiseFit/dp/B0CQRTG843/ref=sr_1_1_sspa?crid=2WA3QIU3EVJSN&dib=eyJ2IjoiMSJ9.NtkgNnxdfq3wRW-lf8_5O3H7d8fLVTpf-8LT6OTnME8SDA8qWiknF3f9dDt7Ct_MGinq34gDISdF87ZEXBorrSRtKAGtFDm40HaVv4-_hUqymLEaLBapAeYEZynzNf60OTonYcuznAziYb7MauvCg950fm9j6eoyfvIv4u4XJyGl4_DrWzqoGh_WtUnF5-_d4DlJPa2dPQHGSj1C7auD3bEjkLlFCxGuOiIDZZO3hs4.N4Zds-h18_tfZUMl1cA5dxKKXsNzkSOThBROFHlsAlI&dib_tag=se&keywords=noise+smart+watches&qid=1714308165&sprefix=noise%2Caps%2C486&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">
+                        <h4 class="showcase-title">Noise ColorFit Pulse 4 with 1.85" Dynamic AMOLED Display, 600 Nits Brightness, BT Calling Smart Watch, Premium Build, 7 Days Battery Life, 24*7 Heart Rate & Sleep Tracking on NoiseFit App (Black Link)</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category"></a>
+            
+                      <div class="price-box">
+                        <p class="price">&#8377; 2,799</p>
+                        <del></del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+                  <div class="showcase">
+            
+                    <a href="https://www.amazon.in/YONEX-Badminton-Racquet-Astrox-Tension/dp/B08WQ2THFG/ref=s9_acsd_al_ot_c2_x_2_t?_encoding=UTF8&pf_rd_m=A21TJRUUN4KGV&pf_rd_s=merchandised-search-8&pf_rd_r=WHXETCS47R5PEWFA0YYG&pf_rd_p=5bc36ae2-47bb-4a4e-a72b-030482fab0cb&pf_rd_t=&pf_rd_i=3403619031" class="showcase-img-box">
+                      <img src="https://m.media-amazon.com/images/I/61j2M9Pz9CL._SX569_.jpg" alt="" class="showcase-img"
+                        width="70">
+                    </a>
+            
+                    <div class="showcase-content">
+            
+                      <a href="https://www.amazon.in/YONEX-Badminton-Racquet-Astrox-Tension/dp/B08WQ2THFG/ref=s9_acsd_al_ot_c2_x_2_t?_encoding=UTF8&pf_rd_m=A21TJRUUN4KGV&pf_rd_s=merchandised-search-8&pf_rd_r=WHXETCS47R5PEWFA0YYG&pf_rd_p=5bc36ae2-47bb-4a4e-a72b-030482fab0cb&pf_rd_t=&pf_rd_i=3403619031">
+                        <h4 class="showcase-title">YONEX Astrox Lite 27i Graphite Strung Badminton Racket with Full Racket Cover (Blue) | For Intermediate Players | 77 grams | Maximum String Tension - 30lbs</h4>
+                      </a>
+            
+                      <a href="#" class="showcase-category"></a>
+            
+                      <div class="price-box">
+                        <p class="price">&#8377; 1,892</p>
+                        <del></del>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+            
+
+
+            
+            
+              </div>
+            
+            </div>
+
+            
+            </div>
+
+          </div>
+
+
+
+          <!--
+            - PRODUCT FEATURED
+          -->
+
+          <div class="product-featured" id="deals">
+
+            <h2 class="title"><b>Deal of the day</b></h2>
+
+            <div class="showcase-wrapper has-scrollbar">
+              
+
+              <div class="showcase-container">
+
+                <div class="showcase">
+                  
+                  <div class="showcase-banner">
+                    <a href="https://www.amazon.in/Redmi-Battery-Qualcomm-Snapdragon-Speakers/dp/B0D1C7KM6Y?ref_=Oct_DLandingS_D_2ac50fdf_0&th=1">
+                       <img src="https://m.media-amazon.com/images/I/41n9rbccFqL._SX300_SY300_QL70_FMwebp_.jpg" alt="" class="showcase-img">
+                    </a>
+                    </div>
+
+                  <div class="showcase-content">
+                    
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+
+                    <a href="https://www.amazon.in/Redmi-Battery-Qualcomm-Snapdragon-Speakers/dp/B0D1C7KM6Y?ref_=Oct_DLandingS_D_2ac50fdf_0&th=1">
+                      <h3 class="showcase-title">Redmi Pad SE| All Day Battery | Qualcomm Snapdragon 680| 90Hz Refresh Rate| 8GB, 128GB Tablet| FHD+ Display (11-inch/27.81cm)| Dolby Atmos| Quad Speakers| Wi-Fi| Gray</h3>
+                    </a>
+
+                    <p class="showcase-desc">
+                     
+                    </p>
+
+                    <div class="price-box">
+                      <p class="price">&#8377; 14,999</p>
+
+                      <del>19,999</del>
+                    </div>
+
+                    <button class="add-cart-btn">add to cart</button>
+
+                    <div class="showcase-status">
+                      <div class="wrapper">
+                        <p>
+                          already sold: <b>20</b>
+                        </p>
+
+                        <p>
+                          available: <b>40</b>
+                        </p>
+                      </div>
+
+                      <div class="showcase-status-bar"></div>
+                    </div>
+
+                    <div class="countdown-box">
+
+                      <p class="countdown-desc">
+                        Hurry Up!
+                      </p>
+
+                      
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="showcase-container">
+              
+                <div class="showcase">
+              
+                  <div class="showcase-banner">
+                    <img src="lenovo slim 3.jpg" alt="" class="showcase-img">
+                  </div>
+              
+                  <div class="showcase-content">
+              
+                    <div class="showcase-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                      <ion-icon name="star-outline"></ion-icon>
+                    </div>
+              
+                    <h3 class="showcase-title">
+                      <a href="#" class="showcase-title"></a>
+                    </h3>
+              
+                    <p class="showcase-desc">
+                     
+                    </p>
+              
+                    <div class="price-box">
+                      <p class="price"></p>
+                      <del></del>
+                    </div>
+              
+                    <button class="add-cart-btn">add to cart</button>
+              
+                    <div class="showcase-status">
+                      <div class="wrapper">
+                        <p> already sold: <b>15</b> </p>
+              
+                        <p> available: <b>40</b> </p>
+                      </div>
+              
+                      <div class="showcase-status-bar"></div>
+                    </div>
+              
+                    </div>
+              
+                  </div>
+              
+                </div>
+              
+              </div>
+
+            </div>
+
+          </div>
+
+
+
+          
+  </main>
+  <section class="footer" id="about">
+    <div class="backtop">
+       <nav><ul>
+        <li><a href="#top">Back to Top</a></li>
+       </ul></nav>
+    </div>
+    <div class="detail">
+<h2>About US</h2>
+    </div>
+  </section>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>

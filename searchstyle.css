@@ -1,0 +1,79 @@
+.sidebar {
+    background-color: #b9e1ee;
+    padding: 20px;
+    width: 250px;
+    margin-bottom: 0%;
+  }
+  
+  .sidebar h2 {
+    margin-bottom: 0px;
+    background-color: rgb(67, 112, 211);
+  }
+  
+  .filter-section {
+    margin-bottom: 20px;
+  }
+  
+  .filter-section h3 {
+    background-color: rgb(67, 112, 211);
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .filter-section input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo img {
+    height: 40px;
+    /* Adjust height as needed */
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+  
+    
+  }
+  
+  .search-bar input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 500px;
+  }
+  
+  .search-bar button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  header {
+    background-color: rgb(97, 161, 190);
+  }
+  .pricio{
+    color: rgb(243, 77, 11);
+    font-size:130%;
+  }
